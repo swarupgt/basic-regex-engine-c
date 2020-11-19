@@ -1,7 +1,7 @@
 # basic-regex-engine-c
 A basic regex engine written in C.
 
-List of all operations:
+List of all operations supported:
  1. empty pattern
  2. exact match
  3. anchor ^
@@ -9,8 +9,8 @@ List of all operations:
  5. metachar .
  6. closure *
  7. quantifier +
- 7. non greedy ?
- 8. character class []
- 9. metachar \d & \w
+ 8. non greedy ?
+ 9. character class [a-zA-Z0-9] along with individual characters
+ 10. metachars \d & \w
 
-Does not support back reference '()' 
+Currently does not support back referencing '()' 
